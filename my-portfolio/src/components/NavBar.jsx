@@ -4,11 +4,11 @@ const NavBar = () => {
 
   return (
     <nav>
-      <h1>Hi, I'm Jason!</h1>
       <div>
-        <NavLink to='/'>Home</NavLink>
+        <NavLink to='/'>Welcome</NavLink>
+        <NavLink to='/Home'>Home</NavLink>
         <NavLink to='/Projects'>Projects</NavLink>
-        <NavLink to='Contact'>Contact Me</NavLink>
+        <NavLink to='/ContactMe'>Contact Me</NavLink>
       </div>
     </nav>
   )

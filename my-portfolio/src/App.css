@@ -267,7 +267,7 @@ body {
 .contact-me-email:hover, .contact-me-linkedin:hover, .contact-me-github:hover {
   /* border: 1px solid rgb(214, 227, 255); */
   background-color: rgba(214, 227, 255, 0.12);
-  border-radius: 8% / 20%;
+  border-radius: 8% / 26%;
   cursor: pointer;
 }
 

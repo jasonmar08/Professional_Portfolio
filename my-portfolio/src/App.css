@@ -1,7 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&family=Schoolbell&display=swap');
+
 body {
   margin: 0;
   padding: 0;
+  margin-top: 130px;
   text-align: center;
-  background-color: rgb(10, 7, 69);
-  color: rgb(240, 232, 154);
+  background-color: #343a40;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.25' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"), linear-gradient(to right top, #343a40, #2b2c31, #211f22, #151314, #000000);
+  width: 100vw;
+  min-height: 150vh;
+  font-family: 'Share Tech', sans-serif;
+  text-shadow: 4px 4px 10px #f6f5f556;
+  /* color: rgb(163, 189, 240); */
+  color: rgb(222, 201, 117);
+}
+
+/* ============>> NAVBAR <<============ */
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5vh;
+  background-color: rgba(51, 48, 48, 0.554);
+  height: 7vh;
+  width: 80vh;
+  margin: 0 auto;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  text-shadow: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+}
+
+.nav-link {
+  font-size: 20px;
+  color: #cdcdcd;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: rgb(214, 227, 255);
+  transform: translate(0, 3px);
+  text-shadow: 3px 3px 10px #f6f5f556;
+}
+.nav-link:active {
+  transform: scale(0.95);
+}
+
+/* ============>> WELCOME PAGE <<============ */
+
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15em;
+}
+
+.welcome-nav {
+  font-size: 26px;
+  color: rgb(66, 112, 150);
+  margin: 0 20px;
+  padding: 0 1vh;
+  text-decoration: none;
+}
+.welcome-nav:hover {
+  color: rgb(189, 205, 241);
+}
+
+.welcome-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7em;
+  background-color: rgb(12, 17, 62);
+  width: 15.5em;
+  height: 3.5em;
+  border-radius: 8% / 20%;
+  text-shadow: none;
+  cursor: pointer;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+}
+.welcome-link:active {
+  transform: scale(0.9);
+}
+
+/* ============>> PROJECTS PAGE <<============ */
+
+.projects-container {
+  margin: 6vh 20vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 7em;
+  column-gap: 5vh;
+  background-color: rgba(10, 7, 40, 0.441);
+  padding: 5vh;
+  border-radius: 5%;
+  border: 2px solid rgb(14, 22, 69);
+  position: absolute;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+}
+
+.project-card {
+  border: 2px solid  rgba(82, 89, 130, 0.789);
+  background-color: rgba(10, 7, 40, 0.215);
+  border-bottom-left-radius: 13%;
+  border-top-right-radius: 13%;
+  padding: 1em 0.5em 2em 0.5em;
+  width: 24em;
+  box-shadow: 0 20px 30px -8px rgba(0, 0, 0, 0.7);
+}
+
+.project-img {
+  height: 22em;
+  width: 23em;
+  border-top-right-radius: 11.5%;
+}
+
+.project-img:hover {
+  /* border: 2px solid rgba(238, 238, 238, 0.494); */
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.project-img:active {
+  transform: scale(0.9);
+}
+
+.project-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.git-btn-grid, .dep-btn-grid {
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+}
+
+#git-btn, #dep-btn {
+  font-size: 16px;
+  /* color: rgb(214, 198, 154); */
+  color: rgb(163, 189, 240);
+  margin: 0;
+  /* padding: 4px 11px; */
+  padding: 8px 12px;
+  text-decoration: none;
+  text-shadow: none;
+  cursor: pointer;
+  border: 2px outset rgba(82, 89, 130, 0.72);
+  background-color: rgba(82, 89, 130, 0.313);
+  /* border-radius: 9%; */
+  border-radius: 25%;
+  transition: all 0.5s
+}
+
+.git-btn-grid:hover, #git-btn:hover, .dep-btn-grid:hover, #dep-btn:hover {
+  /* color: rgb(231, 241, 203); */
+  color: rgb(214, 227, 255);
+  transform: scale(0.9);
+  text-shadow: 3px 3px 10px #f6f5f556;
+}
+
+#git-btn:hover, #dep-btn:hover {
+  border: 2px inset rgba(160, 165, 196, 0.951);
+}
+
+.git-btn-grid:active, .dep-btn-grid:active {
+  transform: scale(0.8);
+}
+
+/* ============>> FLOATING CONTACT CONTAINER <<============ */
+
+.floating-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2.5vh;
+  background-color: rgba(52, 59, 100, 0.817);
+  width: 10vh;
+  height: 19vh;
+  border-radius: 10% / 5%;
+  position: fixed;
+  margin-left: 2vh;
+  bottom: 5%;
+  padding-top: 1.7vh;
+  padding-bottom: 1vh;
+  box-shadow: 0 10px 30px -8px rgba(0, 0, 0, 0.7);
+}
+
+.floating-contact h5 {
+  margin: 0;
+  text-shadow: none;
+  color:rgb(157, 183, 207)
+}
+#email-icon:hover, #linkedin-icon:hover, #github-icon:hover {
+  transform: scale(.87);
+  filter: none;
+}
+
+#email-icon, #linkedin-icon, #github-icon {
+  height: 2.2em;
+  cursor: pointer;
+  filter: invert(25%)
+}
+
+/* ============>> CONTACT ME PAGE <<============ */
+
+.contact-me-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 4vh 2.5vw 0 2.5vw;
+  background: linear-gradient(rgb(105, 124, 165), rgba(68, 63, 122, 0.542)) center/1.5px 90% no-repeat;
+  background-color: rgba(10, 7, 40, 0.441);
+  padding: 0;
+  height: 69vh;
+  border-radius: 4% / 8%;
+  border: 2px solid rgb(14, 22, 69);
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.contact-me-socials-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(52, 59, 100, 0.817);
+  width: 44vh;
+  height: 46vh;
+  border-radius: 13%;
+  box-shadow: 0 10px 30px -8px rgba(0, 0, 0, 0.7);
+  margin-left: 3.5vw;
+}
+
+.contact-me-socials {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3.4vh;
+}
+
+.contact-me-email, .contact-me-linkedin, .contact-me-github {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  column-gap: 2vh;
+  height: 6vh;
+  padding: 2.5vh 1.5vh;
+  text-decoration: none;
+}
+
+.contact-me-email:hover, .contact-me-linkedin:hover, .contact-me-github:hover {
+  /* border: 1px solid rgb(214, 227, 255); */
+  background-color: rgba(214, 227, 255, 0.12);
+  border-radius: 8% / 20%;
+  cursor: pointer;
+}
+
+.contact-me-email:hover #ct-me-email-icon, .contact-me-linkedin:hover #ct-me-linkedin-icon, .contact-me-github:hover #ct-me-github-icon {
+  filter: none;
+}
+
+.contact-me-email:hover *, .contact-me-linkedin:hover *, .contact-me-github:hover * {
+  color: rgb(214, 227, 255);
+  text-shadow: 1px 1px 3px #f6f5f556;
+}
+
+.contact-me-email:active, .contact-me-linkedin:active, .contact-me-github:active {
+  transform: scale(.95);
+}
+
+.contact-me-email-text, .contact-me-linkedin-text, .contact-me-github-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 7vh;
+}
+
+.contact-me-email-text h3, h4, .contact-me-linkedin-text h3, h4, .contact-me-github-text h3, h4 {
+  margin: 0;
+  text-shadow: none;
+  color: rgb(214, 227, 255);
+}
+
+#ct-me-email-icon, #ct-me-linkedin-icon, #ct-me-github-icon {
+  height: 3em;
+  filter: invert(15%);
+}
+
+/* ============>> CONTACT FORM FIELDS <<============ */
+
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* row-gap: 2em; */
+  margin-left: 7vh;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 1em;
+  width: 30em;
+  padding-top: 3.4em;
+}
+
+.input-fields {
+  padding: 0 0.5em 0 1em;
+  height: 3em;
+  font-size: 18px;
+  background-color: #6f6f72cf;
+  color: white;
+  border-radius: 2% / 19%;
+  border: 0.1em solid #aaa5a5;
+  box-sizing: border-box;
+  box-shadow: 0 10px 30px -8px rgba(0, 0, 0, 0.7);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
+input[data-autocompleted] {
+    background-color: transparent !important;
+}
+
+::placeholder {
+  color: white;
+  opacity: .6;
+  font-size: 18px;
+  
+}
+.input-fields:focus, .textarea:focus {
+  outline: none;
+  border: 3px solid rgba(212, 210, 210, 0.828);
+}
+
+.textarea {
+  padding: 0.5em 0 0 1em;
+  height: 7em;
+  font-size: 16px;
+  font-family: 'Share Tech', sans-serif;
+  background-color: #6f6f72cf;
+  color: white;
+  margin-top: 0.1em;
+  margin-bottom: 1em;
+  border: 0.1em solid #aaa5a5;
+  border-radius: 2% / 9%;
+  box-sizing: border-box;
+  resize: none;
+  box-shadow: 0 10px 30px -8px rgba(0, 0, 0, 0.7);
+}
+
+.msg-sent-conf-hidden h3 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 1.5em;
+  opacity: 0;
+}
+
+.msg-sent-conf-visible h3 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 1.5em;
+  color: rgb(186, 220, 244);
+}
+
+/* ============>> CONTACT FORM BUTTON <<============ */
+
+.contact-btn {
+  position: relative;
+  width: 9.5em;
+  height: 2.5em;
+  font-size: 15px;
+  margin: 0 auto;
+  border-radius: 30%;
+  cursor: pointer;
+  background-color: rgb(61, 59, 59);
+  color: #cdcdcd;
+  border: 2px outset rgba(205, 202, 202, 0.828);
+  transition: all 0.5s;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+}
+.contact-btn:after {
+  content: '>>';
+  position: absolute;
+  opacity: 0;
+  top: 9px;
+  right: -20px;
+  transition: 0.5s;
+}
+.contact-btn:hover {
+  background-color: rgb(100, 97, 97);
+  border: 2px solid #b6b2b2;
+  color: #dedcdc;
+  padding-right: 28px;
+}
+.contact-btn:hover:after {
+  opacity: 1;
+  right: 8px;
+}
+.contact-btn:active {
+  transform: scale(.90);
+}
+
+
+/* ======>>======>>> MOBILE-FRIENDLY RESPONSIVE <<<======<<====== */
+@media only screen and (max-width: 600px) {
+  .projects-container {
+    margin: 6vh 0vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 7em;
+    /* column-gap: 5vh; */
+    background-color: rgba(10, 7, 40, 0.441);
+    padding: 5vh;
+    border-radius: 5%;
+    border: 2px solid rgb(14, 22, 69);
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+  }
+  
+  .project-card {
+    border: 2px solid  rgba(82, 89, 130, 0.789);
+    background-color: rgba(10, 7, 40, 0.215);
+    border-bottom-left-radius: 13%;
+    border-top-right-radius: 13%;
+    padding: 1em 0.5em 2em 0.5em;
+    box-shadow: 0 20px 30px -8px rgba(0, 0, 0, 0.7);
+  }
+  
+  .project-img {
+    height: 22em;
+    width: 23em;
+    border-top-right-radius: 11.5%;
+  }
+  
+  .project-img:hover {
+    border: 2px solid rgba(238, 238, 238, 0.494);
+    cursor: pointer;
+  }
+  
+  .project-links {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .git-btn-grid, .dep-btn-grid {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #git-btn, #dep-btn {
+    font-size: 20px;
+    color: rgb(214, 198, 154);
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-shadow: none;
+    cursor: pointer;
+  }
+  
+  .git-btn-grid:hover, #git-btn:hover, .dep-btn-grid:hover, #dep-btn:hover {
+    color: rgb(231, 241, 203);
+    transform: scale(0.9);
+    text-shadow: 3px 3px 10px #f6f5f556;
+  }
+  
+  .git-btn-grid:active, .dep-btn-grid:active {
+    transform: scale(0.8);
+  }
 }

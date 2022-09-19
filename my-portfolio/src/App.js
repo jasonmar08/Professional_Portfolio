@@ -1,12 +1,14 @@
 import NavBar from './components/NavBar'
 import Welcome from './pages/Welcome'
-import Home from './pages/Home'
+import AboutMe from './pages/AboutMe'
 import Projects from './pages/Projects'
 import ContactMe from './pages/ContactMe'
-import { Routes, Route } from 'react-router-dom'
+import Footer from './components/Footer'
+import { Routes, Route, useLocation } from 'react-router-dom'
 import './App.css'
 
 const App = () => {
+  const location = useLocation()
   const projects = [
     {
       id: 1,
@@ -75,16 +77,20 @@ const App = () => {
     <div className="app">
       <header>
         <NavBar />
+        {location.pathname === '/AboutMe' ? (
+          <img id="miami-banner" src="assets/miami_banner.jpeg" alt="banner" />
+        ) : null}
       </header>
       <main>
         <Routes>
           <Route index element={<Welcome />} />
-          <Route path="/Home" element={<Home />} />
+          <Route path="/AboutMe" element={<AboutMe />} />
           <Route path="/Projects" element={<Projects projects={projects} />} />
           <Route path="/Contact" element={<ContactMe />} />
           <Route path="/Projects/:ProjectId" />
         </Routes>
       </main>
+      <footer>{location.pathname === '/' ? null : <Footer />}</footer>
     </div>
   )
 }

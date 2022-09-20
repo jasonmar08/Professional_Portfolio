@@ -51,13 +51,6 @@ const App = () => {
       title: 'Rate A Ride',
       github: 'https://github.com/pfknight8/Fullstackathon_Theme_Park',
       deployed: 'Coming soon!'
-    },
-    {
-      id: 7,
-      image: '../../assets/RAWG_vue_thumbnail.png',
-      title: 'RAWG Video Game Directory',
-      guthub: 'https://github.com/SEI-R-6-21/u4_hw_vue_RAWG',
-      deployed: 'Coming soon!'
     }
   ]
 
@@ -90,7 +83,7 @@ const App = () => {
           <Route path="/Projects/:ProjectId" />
         </Routes>
       </main>
-      <footer>{location.pathname === '/' ? null : <Footer />}</footer>
+      {/* <footer>{location.pathname === '/' ? null : <Footer />}</footer> */}
     </div>
   )
 }

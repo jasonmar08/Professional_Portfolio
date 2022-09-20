@@ -102,8 +102,9 @@ const AboutMe = () => {
             </a>
           </div>
         </div>
-        <ContactForm />
+        {/* <ContactForm /> */}
       </div>
+      {/* <img id="about-comp" src="/assets/comp.png" alt="comp" /> */}
     </div>
   )
 }

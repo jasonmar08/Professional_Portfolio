@@ -12,9 +12,9 @@ const Welcome = () => {
           Explore My Work
         </NavLink>
       </div>
-      {/* <div className="comp-logo">
+      <div className="comp-logo">
         <img src="assets/comp.png" alt="computer" />
-      </div> */}
+      </div>
     </div>
   )
 }

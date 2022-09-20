@@ -911,7 +911,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 348vh;
+    margin-bottom: 368vh;
   }
 
   .projects-page {
@@ -937,7 +937,7 @@ footer {
     box-shadow: none;
     margin-top: 10vh;
     background-color: rgba(10, 7, 40, 0.441);
-    height: 335vh;
+    height: 353vh;
     width: 45vh;
     border-radius: 12% / 1.5%;
     border: 2px solid rgb(14, 22, 69);
@@ -1027,7 +1027,7 @@ footer {
   }
 
   .contact-me-socials-grid {
-    width: 36vh;
+    width: 37vh;
     height: 41vh;
     border-radius: 13%;
     box-shadow: 0 10px 30px -8px rgba(0, 0, 0, 0.7);

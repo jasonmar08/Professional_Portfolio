@@ -181,6 +181,7 @@ body {
 
 .about-page {
   text-align: center;
+  margin-bottom: 10vh;
 }
 
 .profile-container {
@@ -362,6 +363,10 @@ ul {
 }
 
 /* ============>> PROJECTS PAGE <<============ */
+
+.projects-whole {
+  margin-bottom: 148vh;
+}
 
 .projects-page {
   display: flex;
@@ -836,6 +841,7 @@ footer {
     flex-direction: column;
     align-items: center;
     padding-bottom: 6vh;
+    margin-bottom: 8vh;
   }
 
   .profile-container {
@@ -905,6 +911,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 348vh;
   }
 
   .projects-page {
@@ -930,7 +937,7 @@ footer {
     box-shadow: none;
     margin-top: 10vh;
     background-color: rgba(10, 7, 40, 0.441);
-    height: 345vh;
+    height: 335vh;
     width: 45vh;
     border-radius: 12% / 1.5%;
     border: 2px solid rgb(14, 22, 69);
@@ -943,13 +950,13 @@ footer {
     border-bottom-left-radius: 13%;
     border-top-right-radius: 13%;
     padding: 1em 0.5em 2em 0.5em;
-    max-width: 38vh;
+    width: 38vh;
     box-shadow: 0 20px 30px -8px rgba(0, 0, 0, 0.7);
   }
   
   .project-img {
     height: auto;
-    max-width: 20em;
+    width: 20em;
     border-top-right-radius: 11.5%;
   }
   
@@ -988,6 +995,9 @@ footer {
     transform: scale(0.8);
   }
   
+  .contact-page {
+    margin-bottom: 120vh;
+  }
 
   .contact-me-container {
     display: flex;

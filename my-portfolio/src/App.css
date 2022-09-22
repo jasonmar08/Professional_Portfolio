@@ -433,12 +433,6 @@ ul {
   right: 10%; */
 }
 
-.project-img:hover {
-  /* border: 2px solid rgba(238, 238, 238, 0.494); */
-  opacity: 0.6;
-  cursor: pointer;
-}
-
 .project-details {
   display: flex;
   flex-direction: column;
@@ -532,6 +526,7 @@ ul {
   padding-top: 1.7vh;
   padding-bottom: 1vh;
   box-shadow: 0 10px 30px -8px rgba(0, 0, 0, 0.7);
+  z-index: 9999999;
 }
 
 .floating-contact h5 {
@@ -1012,12 +1007,6 @@ footer {
     max-width: 22rem;
     max-height: 22rem;
   }
-
-  .project-img:hover {
-    /* border: 2px solid rgba(238, 238, 238, 0.494); */
-    opacity: 1;
-    cursor: none;
-  }
   
   .project-name-grid {
     border-radius: 10% / 8%;
@@ -1086,7 +1075,7 @@ footer {
   }
 
   .contact-me-socials-grid {
-    width: 37vh;
+    width: 38vh;
     height: 41vh;
     border-radius: 13%;
     box-shadow: 0 10px 30px -8px rgba(0, 0, 0, 0.7);

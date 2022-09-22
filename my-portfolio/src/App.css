@@ -378,36 +378,61 @@ ul {
 }
 
 .projects-container {
-  margin-top: 13vh;
-  width: 75vw;
+  margin-top: 7vh;
+  /* width: 75vw; */
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
   justify-content: center;
-  row-gap: 7em;
-  column-gap: 5vh;
-  background-color: rgba(10, 7, 40, 0.441);
+  row-gap: 7rem;
+  column-gap: 5rem;
+  /* background-color: rgba(10, 7, 40, 0.441); */
   padding: 5vh;
   border-radius: 5%;
-  border: 2px solid rgb(14, 22, 69);
+  /* border: 2px solid rgb(14, 22, 69); */
   position: absolute;
-  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+  /* box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7); */
 }
 
 .project-card {
-  border: 2px solid  rgba(82, 89, 130, 0.789);
-  background-color: rgba(10, 7, 40, 0.215);
-  border-bottom-left-radius: 13%;
-  border-top-right-radius: 13%;
+  display: flex;
+  /* border: 2px solid  rgba(82, 89, 130, 0.789); */
+  /* background-color: rgba(10, 7, 40, 0.215); */
+  /* border-radius: 50%; */
   padding: 1em 0.5em 2em 0.5em;
-  width: 24em;
-  box-shadow: 0 20px 30px -8px rgba(0, 0, 0, 0.7);
+  /* width: 24em; */
+  column-gap: 8rem;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 4rem;
+  justify-content: center;
+  /* box-shadow: 0 20px 30px -8px rgba(0, 0, 0, 0.7); */
 }
 
-.project-img {
-  height: 22em;
-  width: 23em;
-  border-top-right-radius: 11.5%;
+.project-card-reversed {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 1em 0.5em 2em 0.5em;
+  column-gap: 8rem;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 4rem;
+  justify-content: center;
+}
+
+.project-img-grid img {
+  width: 46rem;
+  height: 46rem;
+  max-width: 46rem;
+  max-height: 46rem;
+  border-radius: 50%;
+  border: 2px groove rgb(64, 139, 177);
+  box-shadow: 0 20px 30px -8px rgba(0, 0, 0, 0.7);
+  background-color: rgba(25, 53, 68, 0.434);
+  object-fit: cover;
+  /* position: absolute;
+  top: 18%;
+  right: 10%; */
 }
 
 .project-img:hover {
@@ -420,6 +445,39 @@ ul {
   transform: scale(0.9);
 }
 
+.project-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-name-grid {
+  max-width: 35rem;
+  background-color: rgba(10, 7, 40, 0.441);
+  border-radius: 6% / 11%;
+  border: 2px solid rgb(14, 22, 69);
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+  padding: 0 2rem 2rem 2rem;
+}
+
+.stacks-used {
+  font-weight: 100;
+  font-style: italic;
+}
+
+.project-name-grid h2 {
+  text-align: center;
+}
+
+.project-name-grid h3 {
+  text-align: justify;
+  font-size: 17px;
+}
+
+.project-name-grid p {
+  line-height: 1.5;
+  text-align: justify;
+}
+
 .project-links {
   display: flex;
   justify-content: space-evenly;
@@ -427,7 +485,7 @@ ul {
 
 .git-btn-grid, .dep-btn-grid {
   margin: 0;
-  margin-top: 10px;
+  margin-top: 1rem;
   padding: 0;
 }
 
@@ -443,8 +501,8 @@ ul {
   cursor: pointer;
   border: 2px outset rgba(82, 89, 130, 0.72);
   background-color: rgba(82, 89, 130, 0.313);
-  /* border-radius: 9%; */
-  border-radius: 25%;
+  border-radius: 6% / 17%;
+  /* border-radius: 25%; */
   transition: all 0.5s
 }
 
@@ -910,8 +968,8 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 368vh;
+    /* justify-content: center; */
+    /* margin-bottom: 368vh; */
   }
 
   .projects-page {
@@ -936,33 +994,32 @@ footer {
     border: none;
     box-shadow: none;
     margin-top: 10vh;
-    background-color: rgba(10, 7, 40, 0.441);
-    height: 353vh;
     width: 45vh;
-    border-radius: 12% / 1.5%;
-    border: 2px solid rgb(14, 22, 69);
-    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
   }
   
   .project-card {
-    border: 2px solid  rgba(82, 89, 130, 0.789);
-    background-color: rgba(10, 7, 40, 0.215);
-    border-bottom-left-radius: 13%;
-    border-top-right-radius: 13%;
-    padding: 1em 0.5em 2em 0.5em;
-    width: 38vh;
-    box-shadow: 0 20px 30px -8px rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+
+  .project-card-reversed {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+
+  .project-img-grid img {
+    max-width: 22rem;
+    max-height: 22rem;
+  }
+
+  .stacks-used {
+    text-align: right;
   }
   
-  .project-img {
-    height: auto;
-    width: 20em;
-    border-top-right-radius: 11.5%;
-  }
-  
-  .project-img:hover {
-    border: 2px solid rgba(238, 238, 238, 0.494);
-    cursor: pointer;
+  .project-name-grid {
+    border-radius: 10% / 8%;
   }
   
   .project-links {

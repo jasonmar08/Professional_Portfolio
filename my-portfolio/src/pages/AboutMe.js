@@ -1,17 +1,24 @@
 import ContactForm from '../components/ContactForm'
 import FloatingContact from '../components/FloatingContact'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 
 const AboutMe = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 })
+  }, [])
+
   return (
     <div className="about-page">
       <FloatingContact />
       <h2>About Me</h2>
       <div className="profile-container">
         <div className="profile-info">
-          <div className="profile-photo">
+          <div data-aos="slide-down" className="profile-photo">
             <img src="assets/IMG_4156.jpeg" alt="profile photo" />
           </div>
-          <div className="bio">
+          <div data-aos="slide-down" className="bio">
             <p>
               I am a Miami based Software Engineer with a background
               collaborating in biological sciences and healthcare. I find
@@ -26,7 +33,7 @@ const AboutMe = () => {
             </p>
           </div>
         </div>
-        <div className="stack-icons">
+        <div data-aos="fade-up" className="stack-icons">
           <img src="assets/javascript_icon.png" alt="javascript" />
           <img src="assets/react_icon.png" alt="react" />
           <img src="assets/vue_icon.png" alt="vue" />
@@ -39,7 +46,7 @@ const AboutMe = () => {
           <img src="assets/css_icon.png" alt="css" />
         </div>
         <div className="experience">
-          <div className="skills">
+          <div data-aos="fade-right" className="skills">
             <h3>Frontend Stack</h3>
             <ul>
               <li>JavaScript</li>
@@ -50,7 +57,7 @@ const AboutMe = () => {
               <li>Python</li>
             </ul>
           </div>
-          <div className="skills">
+          <div data-aos="fade-left" className="skills">
             <h3>Backend Stack</h3>
             <ul>
               <li>Node JS</li>
@@ -64,7 +71,7 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="education-container">
-          <div className="education-history">
+          <div data-aos="fade-right" className="education-history">
             <h3>Education</h3>
             <div className="ga-eduaction">
               <h4>General Assembly</h4>
@@ -87,8 +94,13 @@ const AboutMe = () => {
               <p>Emphasis: Pre-Medical Sciences</p>
             </div>
           </div>
-          <img id="right-arrow" src="/assets/right_arrow.png" alt="arrow" />
-          <div className="resume-grid">
+          <img
+            data-aos="fade-up"
+            id="right-arrow"
+            src="/assets/right_arrow.png"
+            alt="arrow"
+          />
+          <div data-aos="fade-left" className="resume-grid">
             <a
               href="assets/Jason_Martinez_Resume.pdf"
               target="_blank"

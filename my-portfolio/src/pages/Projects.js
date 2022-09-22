@@ -7,15 +7,20 @@ const Projects = ({ projects }) => {
       <div className="projects-page">
         <h2>Projects</h2>
         <div className="projects-container">
-          {projects.map(({ id, image, title, github, deployed }) => (
-            <ProjectCard
-              key={id}
-              image={image}
-              title={title}
-              github={github}
-              deployed={deployed}
-            />
-          ))}
+          {projects.map(
+            ({ id, image, title, github, deployed, description, stack }) => (
+              <ProjectCard
+                key={id}
+                image={image}
+                title={title}
+                description={description}
+                stack={stack}
+                github={github}
+                deployed={deployed}
+                id={id}
+              />
+            )
+          )}
         </div>
       </div>
       <FloatingContact />

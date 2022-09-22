@@ -189,6 +189,7 @@ body {
   align-items: center;
   row-gap: 12vh;
   margin-top: 5vh;
+  overflow: hidden;
 }
 
 .profile-info {
@@ -237,6 +238,7 @@ body {
   border-radius: 2% / 27%;
   border: 2px solid rgb(14, 22, 69);
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+  margin: 0 5rem;
 }
 
 .stack-icons img {
@@ -779,8 +781,27 @@ footer {
   bottom: 0;
 }
 
+/* ======>>======>>> TABLET-FRIENDLY RESPONSIVE <<<======<<====== */
+
+/* @media only screen and (min-width: 768px) {
+  
+  .profile-container {
+    overflow: hidden;
+  }
+  
+  .stack-icons {
+    min-width: 116vh;
+    border-radius: 3% / 29%;
+    column-gap: 4vh;
+  }
+
+  .profile-container {
+    overflow-x: hidden;
+  }
+} */
 
 /* ======>>======>>> MOBILE-FRIENDLY RESPONSIVE <<<======<<====== */
+
 @media all and (max-width: 600px) {
 
   .comp-logo img {

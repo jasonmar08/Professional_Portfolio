@@ -154,12 +154,10 @@ body {
   text-shadow: 4px 4px 10px #f6f5f556;
 }
 
-
-
 .comp-logo img {
   height: 40vh;
   width: 40vh;
-  border: 2px groove rgb(64, 139, 177);
+  border: 2px solid rgb(64, 139, 177);
   border-radius: 50%;
   object-fit: cover;
   background-color: #455d77;
@@ -426,7 +424,7 @@ ul {
   max-width: 46rem;
   max-height: 46rem;
   border-radius: 50%;
-  border: 2px groove rgb(64, 139, 177);
+  border: 2px solid rgba(46, 112, 145, 0.849);
   box-shadow: 0 20px 30px -8px rgba(0, 0, 0, 0.7);
   background-color: rgba(25, 53, 68, 0.434);
   object-fit: cover;
@@ -439,10 +437,6 @@ ul {
   /* border: 2px solid rgba(238, 238, 238, 0.494); */
   opacity: 0.6;
   cursor: pointer;
-}
-
-.project-img:active {
-  transform: scale(0.9);
 }
 
 .project-details {
@@ -796,8 +790,8 @@ footer {
   .comp-logo img {
     height: 16vh;
     width: 16vh;
-    top: 32%;
-    right: 32%;
+    top: 41%;
+    right: 33%;
   }
 
   .navbar {
@@ -867,7 +861,7 @@ footer {
     padding-top: 1.3vh;
     padding-bottom: 1.3vh;
     box-shadow: 0 10px 30px -8px rgba(0, 0, 0, 0.7);
-    z-index: 99999;
+    z-index: 99999999;
     margin: 0;
     bottom: 2%;
   }
@@ -900,10 +894,13 @@ footer {
     align-items: center;
     padding-bottom: 6vh;
     margin-bottom: 8vh;
+    overflow-x: hidden;
   }
 
   .profile-container {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     row-gap: 5vh;
   }
 
@@ -968,7 +965,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
     /* margin-bottom: 368vh; */
   }
 
@@ -977,6 +974,7 @@ footer {
     flex-direction: column;
     align-items: center;
     margin-top: 8vh;
+    margin-bottom: 510vh;
   }
 
   .projects-container {
@@ -987,26 +985,27 @@ footer {
     align-items: center;
     flex-wrap: nowrap;
     row-gap: 4em;
-    /* column-gap: 5vh; */
+    column-gap: 0;
     background: none;
     padding: 0;
     border-radius: none;
     border: none;
     box-shadow: none;
     margin-top: 10vh;
-    width: 45vh;
   }
   
   .project-card {
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
+    overflow-x: hidden;
   }
 
   .project-card-reversed {
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
+    overflow-x: hidden;
   }
 
   .project-img-grid img {
@@ -1014,8 +1013,10 @@ footer {
     max-height: 22rem;
   }
 
-  .stacks-used {
-    text-align: right;
+  .project-img:hover {
+    /* border: 2px solid rgba(238, 238, 238, 0.494); */
+    opacity: 1;
+    cursor: none;
   }
   
   .project-name-grid {
@@ -1030,6 +1031,7 @@ footer {
   .git-btn-grid, .dep-btn-grid {
     margin: 0;
     padding: 0;
+    margin-top: 1rem;
   }
   
   #git-btn, #dep-btn {

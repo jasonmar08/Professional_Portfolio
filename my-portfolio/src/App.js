@@ -3,6 +3,7 @@ import Welcome from './pages/Welcome'
 import AboutMe from './pages/AboutMe'
 import Projects from './pages/Projects'
 import ContactMe from './pages/ContactMe'
+import ScrollToTop from './components/ScrollToTop'
 import Footer from './components/Footer'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import './App.css'
@@ -89,6 +90,7 @@ const App = () => {
 
   return (
     <div className="app">
+      <ScrollToTop />
       <header>
         <NavBar />
         {location.pathname === '/AboutMe' ? (

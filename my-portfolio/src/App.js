@@ -47,9 +47,9 @@ const App = () => {
     {
       id: 4,
       image: '../../assets/fullstackathon_portfolio.png',
-      title: 'Best Rides To Visit',
+      title: 'Rating Thrills',
       description:
-        'A full-stack Rides Review app built in collaboration with two other classmates in less than two days. I worked on the front-end with React. Inspired by the classic RollerCoaster Tycoon game. Users have the option upload a roller coaster ride and provide a rating and description of their experience. This can be scaled to include roller coasters around the world.',
+        'A full-stack Rides Review app built in one day in collaboration with two other peers. I worked on the front-end with React and React Router. Inspired by the classic RollerCoaster Tycoon game. Users have the option upload a roller coaster ride and provide a rating and description of their experience. This can be scaled to include roller coasters around the world.',
       stack: 'React, React Router, Node, Express, MongoDB, Mongoose',
       github: 'https://github.com/pfknight8/Fullstackathon_Theme_Park',
       deployed: 'Coming soon!'

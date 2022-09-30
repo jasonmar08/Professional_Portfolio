@@ -17,6 +17,7 @@ const App = () => {
       title: 'uCutz',
       description:
         'uCutz is a go-to platform dedicated to your next haircut. As a customer, you can browse for barbershops and their barbers. As a barbershop or an independent barber looking to freelance your talent, you can create an account to manage appointments and optimize your business. Our priority is helping barbers run their business more effectively while also allowing customers to seamlessly schedule their next haircut and feel ready to face the world looking fresh!',
+      note: 'Note: Use the following credentials to login as a client, "schwartzr@gmail.com", "password".',
       stack:
         'React, React Router, Node, Express, PostgreSQL, Sequelize, and Firebase Deployment',
       github: 'https://github.com/jasonmar08/uCutz_Front_End',

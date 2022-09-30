@@ -3,7 +3,7 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from "react"
 
-const ProjectCard = ({ id, image, title, description, stack, github, deployed }) => {
+const ProjectCard = ({ id, image, title, description, stack, github, deployed, note }) => {
 
   useEffect(() => {
     Aos.init({ duration: 1000 })
@@ -20,6 +20,7 @@ const ProjectCard = ({ id, image, title, description, stack, github, deployed })
           <div data-aos={id % 2 === 0 ? 'fade-right' : 'fade-left'} className='project-name-grid'>
             <h2>{title}</h2>
             <h3>Tech Used: <span className="stacks-used">{stack}</span></h3>
+            <p>{note}</p>
             <p>{description}</p>
           <div className='project-links'>
             <div className='git-btn-grid'>

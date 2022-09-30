@@ -8,7 +8,16 @@ const Projects = ({ projects }) => {
         <h2>Projects</h2>
         <div className="projects-container">
           {projects.map(
-            ({ id, image, title, github, deployed, description, stack }) => (
+            ({
+              id,
+              image,
+              title,
+              github,
+              deployed,
+              description,
+              stack,
+              note
+            }) => (
               <ProjectCard
                 key={id}
                 image={image}
@@ -18,6 +27,7 @@ const Projects = ({ projects }) => {
                 github={github}
                 deployed={deployed}
                 id={id}
+                note={note}
               />
             )
           )}

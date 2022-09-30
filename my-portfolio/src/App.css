@@ -907,7 +907,7 @@ footer {
   .built-scratch {
     text-align: center;
     position: absolute;
-    bottom: 15%;
+    bottom: 16%;
     font-size: 23px;
     left: 0%;
     width: 100%;
@@ -1041,7 +1041,7 @@ footer {
     flex-direction: column;
     align-items: center;
     margin-top: 8vh;
-    margin-bottom: 510vh;
+    margin-bottom: 517vh;
   }
 
   .projects-container {
@@ -1116,7 +1116,7 @@ footer {
   }
   
   .contact-page {
-    margin-bottom: 120vh;
+    margin-bottom: 123vh;
   }
 
   .contact-me-container {

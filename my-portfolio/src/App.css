@@ -454,6 +454,12 @@ ul {
   font-style: italic;
 }
 
+#credentials {
+  font-size: 14px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
 .project-name-grid h2 {
   text-align: center;
 }

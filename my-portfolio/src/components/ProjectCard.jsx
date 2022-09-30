@@ -20,7 +20,7 @@ const ProjectCard = ({ id, image, title, description, stack, github, deployed, n
           <div data-aos={id % 2 === 0 ? 'fade-right' : 'fade-left'} className='project-name-grid'>
             <h2>{title}</h2>
             <h3>Tech Used: <span className="stacks-used">{stack}</span></h3>
-            <p>{note}</p>
+            <p id='credentials'>{note}</p>
             <p>{description}</p>
           <div className='project-links'>
             <div className='git-btn-grid'>

@@ -54,16 +54,16 @@ const AboutMe = () => {
               <li>CSS</li>
               <li>React</li>
               <li>Vue</li>
-              <li>Python</li>
             </ul>
           </div>
           <div data-aos="fade-left" className="skills">
             <h3>Backend Stack</h3>
             <ul>
+              <li>Python</li>
+              <li>Django</li>
               <li>Node JS</li>
               <li>PostgreSQL</li>
               <li>MongoDB</li>
-              <li>Django</li>
               <li>Express JS</li>
               <li>Sequelize</li>
               <li>Mongoose</li>

@@ -49,7 +49,7 @@ const AboutMe = () => {
           <div data-aos="fade-right" className="skills">
             <h3>Frontend Stack</h3>
             <ul>
-              <li>JavaScript</li>
+              <li>JavaScript (ES6)</li>
               <li>HTML5</li>
               <li>CSS3</li>
               <li>ReactJS</li>

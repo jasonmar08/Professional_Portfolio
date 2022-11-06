@@ -108,7 +108,7 @@ const AboutMe = () => {
               alt="resume"
             >
               <img
-                src="/assets/resume_thumbnail.png"
+                src="/assets/resume_thumbnail_aboutme.png"
                 id="resume-thumbnail"
                 alt="resume"
               />

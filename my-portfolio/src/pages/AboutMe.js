@@ -50,11 +50,11 @@ const AboutMe = () => {
             <h3>Frontend Stack</h3>
             <ul>
               <li>JavaScript</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>React</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>ReactJS</li>
               <li>Redux</li>
-              <li>Vue</li>
+              <li>Vue.js</li>
             </ul>
           </div>
           <div data-aos="fade-left" className="skills">
@@ -62,10 +62,10 @@ const AboutMe = () => {
             <ul>
               <li>Python</li>
               <li>Django</li>
-              <li>Node JS</li>
+              <li>Node.js</li>
               <li>PostgreSQL</li>
               <li>MongoDB</li>
-              <li>Express JS</li>
+              <li>Express.js</li>
               <li>Sequelize</li>
               <li>Mongoose</li>
             </ul>

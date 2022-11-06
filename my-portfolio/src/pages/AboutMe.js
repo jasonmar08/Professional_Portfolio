@@ -53,6 +53,7 @@ const AboutMe = () => {
               <li>HTML</li>
               <li>CSS</li>
               <li>React</li>
+              <li>Redux</li>
               <li>Vue</li>
             </ul>
           </div>

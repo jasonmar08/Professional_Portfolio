@@ -1247,6 +1247,10 @@ footer {
     height: 22rem;
     width: auto;
   }
+
+  .project-name-grid {
+    max-width: 19rem;
+  }
   
   .project-name-grid {
     border-radius: 10% / 8%;

@@ -36,6 +36,7 @@ const AboutMe = () => {
         <div data-aos="fade-up" className="stack-icons">
           <img src="assets/javascript_icon.png" alt="javascript" />
           <img src="assets/react_icon.png" alt="react" />
+          <img src="assets/redux_icon.png" alt="redux" />
           <img src="assets/vue_icon.png" alt="vue" />
           <img src="assets/node_icon.png" alt="node" />
           <img src="assets/postgresql_icon.png" alt="postgresql" />

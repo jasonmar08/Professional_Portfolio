@@ -256,6 +256,10 @@ body {
   box-shadow: none;
 }
 
+.stack-icons img:hover {
+  transform: scale(1.2);
+}
+
 .experience {
   display: flex;
   justify-content: center;
@@ -430,16 +434,32 @@ ul {
   justify-content: center;
 }
 
-.project-img-grid img {
-  width: 46rem;
-  height: 46rem;
-  max-width: 46rem;
-  max-height: 46rem;
+.project-img-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
   border-radius: 50%;
   border: 2px solid rgba(46, 112, 145, 0.849);
   box-shadow: 0 20px 30px -8px rgba(0, 0, 0, 0.7);
   background-color: rgba(25, 53, 68, 0.434);
   object-fit: cover;
+  height: 46rem;
+  width: 46rem;
+  overflow: hidden;
+}
+
+.project-img-grid img {
+  /* width: 46rem; */
+  height: 46rem;
+  width: auto;
+  /* max-width: 46rem; */
+  /* max-height: 46rem; */
+  /* border-radius: 50%;
+  border: 2px solid rgba(46, 112, 145, 0.849);
+  box-shadow: 0 20px 30px -8px rgba(0, 0, 0, 0.7);
+  background-color: rgba(25, 53, 68, 0.434);
+  object-fit: cover; */
   /* position: absolute;
   top: 18%;
   right: 10%; */
@@ -797,6 +817,147 @@ footer {
   bottom: 0;
 }
 
+/* ======>>======>>> MACBOOK-FRIENDLY RESPONSIVE <<<======<<====== */
+
+@media only screen and (max-width: 1280px) {
+  .welcome-container {
+    padding: 3vh 0;
+    margin: 0 5vh;
+    border-bottom-left-radius: 6% 10%;
+    border-bottom-right-radius: 6% 10%;
+  }
+  
+  .welcome-info {
+    margin-top: 22vh;
+  }
+  
+  .welcome-info h1 {
+    font-size: 72px;
+  }
+  
+  .welcome-info h2 {
+    font-size: 38px;
+  }
+  
+  .btn-txt {
+    font-size: 16px;
+  }
+  
+  .comp-logo img {
+    height: 32vh;
+    width: 32vh;
+    top: 25%;
+    right: 6%;
+  }
+  
+  .built-scratch {
+    font-size: 23px;
+  }
+
+  .stack-icons {
+    row-gap: 4vh;
+    column-gap: 6vh;
+    border-radius: 3% / 30%;
+  }
+  
+  .stack-icons img {
+    height: 6vh;
+  }
+
+  .stack-icons img:hover {
+    transform: scale(1.2);
+  }
+
+  .floating-contact {
+    row-gap: 2vh;
+    width: 8vh;
+    max-height: 22vh;
+    border-radius: 15% / 5%;
+  }
+  
+  #email-icon, #linkedin-icon, #github-icon, #resume-icon {
+    max-height: 1.8rem;
+    max-width: 1.8rem;
+  }
+
+  .project-card {
+    column-gap: 3rem;
+    flex-wrap: wrap;
+    row-gap: 4rem;
+  }
+
+  .project-card-reversed {
+    column-gap: 3rem;
+    flex-wrap: wrap;
+    row-gap: 4rem;
+  }
+
+  .project-img-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid rgba(46, 112, 145, 0.849);
+    box-shadow: 0 20px 30px -8px rgba(0, 0, 0, 0.7);
+    background-color: rgba(25, 53, 68, 0.434);
+    object-fit: cover;
+    height: 37rem;
+    width: 37rem;
+    overflow: hidden;
+  }
+  
+  .project-img-grid img {
+    height: 37rem;
+    width: auto;
+  }
+
+  .project-name-grid {
+    width: 27rem;
+  }
+
+  #credentials {
+    font-size: 13px;
+  }
+
+  .project-name-grid h2 {
+    font-size: 23px;
+  }
+  
+  .project-name-grid h3 {
+    font-size: 15px;
+  }
+
+  .project-name-grid p {
+    font-size: 14px;
+  }
+
+  #git-btn, #dep-btn {
+    font-size: 15px;
+  }
+
+  .contact-me-socials-grid {
+    width: 42vh;
+    height: 42vh;
+  }
+
+  .contact-me-email, .contact-me-linkedin, .contact-me-github {
+    padding: 2.5vh 1vh;
+  }
+
+  .contact-me-email-text h3, .contact-me-linkedin-text h3, .contact-me-github-text h3 {
+    font-size: 16px;
+  }
+
+  .contact-me-email-text h4, .contact-me-linkedin-text h4, .contact-me-github-text h4 {
+    font-size: 14px;
+  }
+
+  #ct-me-email-icon, #ct-me-linkedin-icon, #ct-me-github-icon {
+    max-height: 2.8em;
+    max-width: 2.8em;
+  }
+}
+
 /* ======>>======>>> TABLET-FRIENDLY RESPONSIVE <<<======<<====== */
 
 @media all and (max-width: 768px) {
@@ -1002,7 +1163,7 @@ footer {
   }
 
   .stack-icons img {
-    height: 4.5vh;
+    height: 5vh;
   }
 
   .experience {
@@ -1076,9 +1237,15 @@ footer {
     overflow-x: hidden;
   }
 
+  .project-img-grid {
+    height: 22rem;
+    width: 22rem;
+    overflow: hidden;
+  }
+  
   .project-img-grid img {
-    max-width: 22rem;
-    max-height: 22rem;
+    height: 22rem;
+    width: auto;
   }
   
   .project-name-grid {

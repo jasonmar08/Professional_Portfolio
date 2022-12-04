@@ -47,6 +47,17 @@ const App = () => {
     },
     {
       id: 4,
+      image: '../../assets/blizzrd_portfolio.png',
+      title: 'Blizzrd',
+      description:
+        "Blizzrd is a fun mobile-friendly weather app that allows users around the globe to check their local forecast. I utilized Python with Django, and Django Templates. Weather information is being retrieved from OpenWeather's public API. Current functionality includes searching weather information by city. Future iterations will be released with added features, including toggling weather units between ºF and ºC, and allowing user account creation with CRUD functionality.",
+      stack:
+        'Python, Django, HTML, CSS, OpenWeather API, and PythonAnywhere Deployment',
+      github: 'https://github.com/jasonmar08/Blizzrd',
+      deployed: 'http://devapp.pythonanywhere.com/'
+    },
+    {
+      id: 5,
       image: '../../assets/fullstackathon_portfolio.png',
       title: 'Rating Thrills',
       description:
@@ -56,7 +67,7 @@ const App = () => {
       deployed: 'Coming soon!'
     },
     {
-      id: 5,
+      id: 6,
       image: '../../assets/word_challenge_portfolio.png',
       title: 'Word Challenge',
       description:
@@ -66,7 +77,7 @@ const App = () => {
       deployed: 'https://word-challenge-game.surge.sh/'
     },
     {
-      id: 6,
+      id: 7,
       image: '../../assets/tic_tac_toe_portfolio.png',
       title: 'Tic-Tac-Toe',
       description:

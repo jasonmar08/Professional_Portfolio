@@ -51,9 +51,9 @@ const AboutMe = () => {
             <h3>Frontend Stack</h3>
             <ul>
               <li>JavaScript (ES6)</li>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>ReactJS</li>
+              <li>Typescript</li>
+              <li>HTML5 / CSS3</li>
+              <li>React.js</li>
               <li>Redux</li>
               <li>Vue.js</li>
             </ul>

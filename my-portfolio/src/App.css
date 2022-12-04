@@ -241,7 +241,7 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   row-gap: 4vh;
-  column-gap: 8vh;
+  column-gap: 7vh;
   padding: 3vh 4vh;
   background-color: rgba(10, 7, 40, 0.441);
   border-radius: 2% / 27%;
@@ -251,7 +251,7 @@ body {
 }
 
 .stack-icons img {
-  height: 8vh;
+  height: 7vh;
   background: none;
   box-shadow: none;
 }
@@ -857,12 +857,12 @@ footer {
 
   .stack-icons {
     row-gap: 4vh;
-    column-gap: 6vh;
+    column-gap: 5.5vh;
     border-radius: 3% / 30%;
   }
   
   .stack-icons img {
-    height: 6vh;
+    height: 5.5vh;
   }
 
   .stack-icons img:hover {

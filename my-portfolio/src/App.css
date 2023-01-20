@@ -98,8 +98,8 @@ body {
   margin: 0 10vh;
   background-color: rgba(10, 7, 40, 0.441);
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
-  border-bottom-left-radius: 6% 14%;
-  border-bottom-right-radius: 6% 14%;
+  border-bottom-left-radius: 65px;
+  border-bottom-right-radius: 65px;
   border: 2px solid rgb(14, 22, 69);
 }
 
@@ -229,7 +229,7 @@ body {
   padding: 1vh 4vh;
   text-align: justify;
   background-color: rgba(10, 7, 40, 0.441);
-  border-radius: 4% / 11%;
+  border-radius: 25px;
   border: 2px solid rgb(14, 22, 69);
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
   text-shadow: none;
@@ -244,7 +244,7 @@ body {
   column-gap: 7vh;
   padding: 3vh 4vh;
   background-color: rgba(10, 7, 40, 0.441);
-  border-radius: 2% / 27%;
+  border-radius: 30px;
   border: 2px solid rgb(14, 22, 69);
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
   margin: 0 5rem;
@@ -279,7 +279,7 @@ body {
   padding: 1vh 4vh;
   text-align: justify;
   background-color: rgba(10, 7, 40, 0.441);
-  border-radius: 6% / 11%;
+  border-radius: 25px;
   border: 2px solid rgb(14, 22, 69);
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
   text-shadow: none;
@@ -319,7 +319,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   background-color: rgba(10, 7, 40, 0.441);
-  border-radius: 6% / 11%;
+  border-radius: 35px;
   border: 2px solid rgb(14, 22, 69);
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
   max-width: 62vh;
@@ -351,7 +351,7 @@ ul {
 
 #resume-thumbnail {
   max-width: 33vh;
-  border-radius: 10% / 8%;
+  border-radius: 26px;
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
   filter: invert(8%)
 }
@@ -359,6 +359,7 @@ ul {
 #resume-thumbnail:hover {
   filter: none;
   transform: scale(.96);
+  transition: 0.3s;
 }
 
 #right-arrow {
@@ -474,7 +475,7 @@ ul {
 .project-name-grid {
   max-width: 35rem;
   background-color: rgba(10, 7, 40, 0.441);
-  border-radius: 6% / 11%;
+  border-radius: 45px;
   border: 2px solid rgb(14, 22, 69);
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
   padding: 0 2rem 2rem 2rem;
@@ -559,7 +560,7 @@ ul {
   background-color: rgba(52, 59, 100, 0.817);
   width: 10vh;
   max-height: 27vh;
-  border-radius: 10% / 5%;
+  border-radius: 12px;
   position: fixed;
   margin-left: 2vh;
   bottom: 5%;
@@ -604,7 +605,7 @@ ul {
   background-color: rgba(10, 7, 40, 0.441);
   padding: 0;
   min-height: 69vh;
-  border-radius: 4% / 8%;
+  border-radius: 50px;
   border: 2px solid rgb(14, 22, 69);
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
   position: absolute;
@@ -620,7 +621,7 @@ ul {
   background-color: rgba(52, 59, 100, 0.817);
   width: 44vh;
   height: 46vh;
-  border-radius: 13%;
+  border-radius: 45px;
   box-shadow: 0 10px 30px -8px rgba(0, 0, 0, 0.7);
   margin-left: 3.5vw;
 }
@@ -645,7 +646,7 @@ ul {
 .contact-me-email:hover, .contact-me-linkedin:hover, .contact-me-github:hover {
   /* border: 1px solid rgb(214, 227, 255); */
   background-color: rgba(214, 227, 255, 0.12);
-  border-radius: 8% / 26%;
+  border-radius: 23px;
   cursor: pointer;
 }
 
@@ -824,8 +825,8 @@ footer {
   .welcome-container {
     padding: 3vh 0;
     margin: 0 5vh;
-    border-bottom-left-radius: 6% 10%;
-    border-bottom-right-radius: 6% 10%;
+    /* border-bottom-left-radius: 6% 10%;
+    border-bottom-right-radius: 6% 10%; */
   }
   
   .welcome-info {
@@ -858,7 +859,7 @@ footer {
   .stack-icons {
     row-gap: 4vh;
     column-gap: 5.5vh;
-    border-radius: 3% / 30%;
+    /* border-radius: 3% / 30%; */
   }
   
   .stack-icons img {
@@ -873,7 +874,7 @@ footer {
     row-gap: 2vh;
     width: 8vh;
     max-height: 22vh;
-    border-radius: 15% / 5%;
+    /* border-radius: 15% / 5%; */
   }
   
   #email-icon, #linkedin-icon, #github-icon, #resume-icon {
@@ -1043,8 +1044,8 @@ footer {
     padding: 0 0 15vh 0;
     margin: 0;
     width: 99%;
-    border-bottom-left-radius: 12% 8%;
-    border-bottom-right-radius: 12% 8%;
+    /* border-bottom-left-radius: 12% 8%;
+    border-bottom-right-radius: 12% 8%; */
   }
 
   .welcome-info {
@@ -1086,7 +1087,7 @@ footer {
     background-color: rgba(52, 59, 100, 0.932);
     width: 32vh;
     max-height: 5.5vh;
-    border-radius: 8% / 23%;
+    /* border-radius: 8% / 23%; */
     position: fixed;
     padding-top: 1.3vh;
     padding-bottom: 1.3vh;
@@ -1150,7 +1151,7 @@ footer {
     padding: 1vh 4vh;
     text-align: justify;
     background-color: rgba(10, 7, 40, 0.441);
-    border-radius: 9% / 9%;
+    /* border-radius: 9% / 9%; */
     border: 2px solid rgb(14, 22, 69);
     box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
     text-shadow: none;
@@ -1159,7 +1160,7 @@ footer {
 
   .stack-icons {
     width: 35vh;
-    border-radius: 8% / 15%;
+    /* border-radius: 8% / 15%; */
     column-gap: 3vh;
   }
 
@@ -1180,7 +1181,7 @@ footer {
   .education-history {
     max-width: 38vh;
     min-height: 46vh;
-    border-radius: 9% / 9%;
+    /* border-radius: 9% / 9%; */
   }
 
   #resume-thumbnail {
@@ -1196,7 +1197,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* margin-bottom: 368vh; */
+    margin-bottom: 2100px;
   }
 
   .projects-page {
@@ -1254,7 +1255,7 @@ footer {
   }
   
   .project-name-grid {
-    border-radius: 10% / 8%;
+    /* border-radius: 10% / 8%; */
   }
   
   .project-links {
@@ -1305,7 +1306,7 @@ footer {
     padding: 0;
     height: 105vh;
     padding-bottom: 4vh;
-    border-radius: 12% / 5%;
+    /* border-radius: 12% / 5%; */
     border: 2px solid rgb(14, 22, 69);
     box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
     position: absolute;
@@ -1322,7 +1323,7 @@ footer {
   .contact-me-socials-grid {
     width: 38vh;
     height: 41vh;
-    border-radius: 13%;
+    /* border-radius: 13%; */
     box-shadow: 0 10px 30px -8px rgba(0, 0, 0, 0.7);
     margin: 0;
   }

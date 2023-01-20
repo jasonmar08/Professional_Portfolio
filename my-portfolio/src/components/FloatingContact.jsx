@@ -25,7 +25,7 @@ const FloatingContact = () => {
             id="github-icon"
           />
         </a>
-        <a href="assets/Jason_Martinez_Resume.pdf" target="_blank" rel='noreferrer'>
+        <a href="assets/Resume_Jason_Martinez.pdf" target="_blank" rel='noreferrer'>
           <img
             src="../../assets/resume_flat_icon.png"
             alt="Resume"

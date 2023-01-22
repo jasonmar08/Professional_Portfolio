@@ -44,7 +44,7 @@ const App = () => {
       stack:
         'React, React Router, Node, Express, MongoDB, Mongoose, and Heroku Deployment',
       github: 'https://github.com/jasonmar08/Artwork_Collection_Directory',
-      deployed: 'https://nameless-sierra-42667.herokuapp.com/'
+      deployed: 'https://doczdpg4lvkh.cloudfront.net'
     },
     {
       id: 4,

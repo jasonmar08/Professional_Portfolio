@@ -21,7 +21,7 @@ const App = () => {
       stack:
         'React, React Router, Node, Express, PostgreSQL, Sequelize, and Firebase Deployment',
       github: 'https://github.com/jasonmar08/uCutz_Front_End',
-      deployed: 'http://ucutz-frontend-s3.s3-website-us-east-1.amazonaws.com/'
+      deployed: 'https://d3n0wv653fmz98.cloudfront.net'
     },
     {
       id: 2,

@@ -32,8 +32,7 @@ const App = () => {
       stack:
         'React, React Router, Node, Express, PostgreSQL, Sequelize, and Firebase Deployment',
       github: 'https://github.com/anovick1/Tech-Tinder-Front',
-      deployed:
-        'http://tech-tinder-frontend.s3-website-us-east-1.amazonaws.com/'
+      deployed: 'https://d2lngctsow99sp.cloudfront.net'
     },
     {
       id: 3,

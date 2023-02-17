@@ -1,4 +1,4 @@
-<img style="center" src="/public/assets/readme/banner.png" alt="Portfolio Banner"  width="1000">
+<img style="center" src="my-portfolio/public/assets/readme/banner.png" alt="Portfolio Banner"  width="1000">
 
 ## Jason Martinez
 
@@ -28,7 +28,7 @@ When brainstorming my portfolio's development approach, I grappled with using on
 
 <div style= "center">
     <pre>
-        <img src="/public/assets/readme/mobile_welcome.png"  height="350">&nbsp;&nbsp;&nbsp;<img src="/public/assets/readme/mobile_about.png" height="350">&nbsp;&nbsp;&nbsp;<img src="/public/assets/readme/mobile_stack.png" height="350">&nbsp;&nbsp;&nbsp;<img src="/public/assets/readme/mobile_projects.png" height="350">&nbsp;&nbsp;&nbsp;<img src="/public/assets/readme/mobile_contact.png" height="350">&nbsp;&nbsp;&nbsp;
+        <img src="my-portfolio/public/assets/readme/mobile_welcome.png"  height="350">&nbsp;&nbsp;&nbsp;<img src="my-portfolio/public/assets/readme/mobile_about.png" height="350">&nbsp;&nbsp;&nbsp;<img src="my-portfolio/public/assets/readme/mobile_stack.png" height="350">&nbsp;&nbsp;&nbsp;<img src="my-portfolio/public/assets/readme/mobile_projects.png" height="350">&nbsp;&nbsp;&nbsp;<img src="my-portfolio/public/assets/readme/mobile_contact.png" height="350">&nbsp;&nbsp;&nbsp;
     </pre>
 </div>
 
@@ -36,7 +36,7 @@ When brainstorming my portfolio's development approach, I grappled with using on
 
 <div style= "center">
     <pre>
-        <img src="/public/assets/readme/welcome.png"  height="450">&nbsp;&nbsp;&nbsp;<img src="/public/assets/readme/about.png" height="450">&nbsp;&nbsp;&nbsp;<img src="/public/assets/readme/stack.png" height="350">&nbsp;&nbsp;&nbsp;<img src="/public/assets/readme/projects.png" height="450">&nbsp;&nbsp;&nbsp;<img src="/public/assets/readme/contact.png" height="450">&nbsp;&nbsp;&nbsp;
+        <img src="my-portfolio/public/assets/readme/welcome.png"  height="450">&nbsp;&nbsp;&nbsp;<img src="my-portfolio/public/assets/readme/about.png" height="450">&nbsp;&nbsp;&nbsp;<img src="my-portfolio/public/assets/readme/stack.png" height="350">&nbsp;&nbsp;&nbsp;<img src="my-portfolio/public/assets/readme/projects.png" height="450">&nbsp;&nbsp;&nbsp;<img src="my-portfolio/public/assets/readme/contact.png" height="450">&nbsp;&nbsp;&nbsp;
     </pre>
 </div>
 
@@ -44,7 +44,7 @@ When brainstorming my portfolio's development approach, I grappled with using on
 
 ## Technologies Used
 
-<img style="center" src="/public/assets/readme/react_banner.png" alt="ReactJS Banner" width="1000">
+<img style="center" src="my-portfolio/public/assets/readme/react_banner.png" alt="ReactJS Banner" width="1000">
 
 - JavaScript
 - ReactJS

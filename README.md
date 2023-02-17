@@ -36,7 +36,7 @@ When brainstorming my portfolio's development approach, I grappled with using on
 
 <div style= "center">
     <pre>
-        <img src="my-portfolio/public/assets/readme/welcome.png"  height="450">&nbsp;&nbsp;&nbsp;<img src="my-portfolio/public/assets/readme/about.png" height="450">&nbsp;&nbsp;&nbsp;<img src="my-portfolio/public/assets/readme/stack.png" height="350">&nbsp;&nbsp;&nbsp;<img src="my-portfolio/public/assets/readme/projects.png" height="450">&nbsp;&nbsp;&nbsp;<img src="my-portfolio/public/assets/readme/contact.png" height="450">&nbsp;&nbsp;&nbsp;
+        <img src="my-portfolio/public/assets/readme/welcome.png"  height="400">&nbsp;&nbsp;&nbsp;<img src="my-portfolio/public/assets/readme/about.png" height="400">&nbsp;&nbsp;&nbsp;<img src="my-portfolio/public/assets/readme/stack.png" height="400">&nbsp;&nbsp;&nbsp;<img src="my-portfolio/public/assets/readme/projects.png" height="400">&nbsp;&nbsp;&nbsp;<img src="my-portfolio/public/assets/readme/contact.png" height="400">&nbsp;&nbsp;&nbsp;
     </pre>
 </div>
 

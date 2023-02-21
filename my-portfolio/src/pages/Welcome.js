@@ -9,7 +9,7 @@ const Welcome = () => {
   }, [])
 
   return (
-    <div className="welcome-container">
+    <div data-aos="slide-down" className="welcome-container">
       <div className="welcome-info">
         <h1 data-aos="slide-right">Jason Martinez</h1>
         <h2 data-aos="flip-up">Full-Stack Software Engineer</h2>

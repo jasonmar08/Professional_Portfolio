@@ -4,9 +4,9 @@
 
 ### Software Engineer Portfolio
 
----
+### _Built entirely from scratch with ReactJS + CSS_
 
-#### Built entirely from scratch with ReactJS + CSS
+---
 
 #### Socials: <a href="https://www.linkedin.com/in/martinez-jason/" target="_blank" rel="noreferrer">LinkedIn</a> | <a href="https://github.com/jasonmar08" target="_blank" rel="noreferrer">GitHub</a>
 

@@ -4,7 +4,7 @@
 
 ### Software Engineer Portfolio
 
-### _Built entirely from scratch with ReactJS + CSS_
+#### _Built entirely from scratch with ReactJS + CSS_
 
 ---
 

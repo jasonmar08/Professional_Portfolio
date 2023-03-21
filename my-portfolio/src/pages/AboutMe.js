@@ -20,16 +20,19 @@ const AboutMe = () => {
           </div>
           <div data-aos="slide-down" className="bio">
             <p>
-              I am a Miami based Software Engineer with a background
-              collaborating in biological sciences and healthcare. I find
-              satisfaction in empathetic work that incorporates evidence-based
-              solutions and transparent set goals. I frequently challenge myself
-              to update my repertoire of technical practices with the latest
-              advancements in science and tech, while applying these skills to a
-              personalized proposal that prioritizes the individual needs of
-              clients. Being a life-long Miami native has allowed me to
-              appreciate diversity and the unique experiences every individual
-              brings to the table.
+              As a software engineer with a background in biological sciences
+              and healthcare, I bring a unique perspective to the tech industry.
+              I find satisfaction in meaningful work that incorporates
+              data-driven practices and solutions. I am driven by challenge and
+              have a keen ability to pick up new languages and meet tight
+              deadlines. I have experience working on an Agile/Scrum team and
+              understand the importance of collaboration and communication in
+              delivering quality work. Whether I am developing full-stack
+              applications, my top priority is always delivering work that is
+              optimized and functional. I approach every task with the intent to
+              learn and grow, and I am always looking for new challenges. With
+              my skills and enthusiasm, I am ready to take on any project and
+              make a real impact in the tech industry.🚀💻👨🏻‍💻🧬
             </p>
           </div>
         </div>

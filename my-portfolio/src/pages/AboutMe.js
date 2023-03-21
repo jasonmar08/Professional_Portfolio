@@ -105,12 +105,12 @@ const AboutMe = () => {
           />
           <div data-aos="fade-left" className="resume-grid">
             <a
-              href="assets/Resume_Jason_Martinez.pdf"
+              href="assets/Jason_Martinez_Portfolio_Resume.pdf"
               target="_blank"
               alt="resume"
             >
               <img
-                src="/assets/resume_thumbnail.png"
+                src="/assets/JM_Resume_Thumbnail.png"
                 id="resume-thumbnail"
                 alt="resume"
               />

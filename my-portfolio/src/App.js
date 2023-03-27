@@ -13,7 +13,7 @@ const App = () => {
   const projects = [
     {
       id: 1,
-      image: '../../assets/uCutz_portfolio.png',
+      image: '../../assets/ucutz_new_portfolio.png',
       title: 'uCutz',
       description:
         'uCutz is a go-to platform dedicated to your next haircut. As a customer, you can browse for barbershops and their barbers. As a barbershop or an independent barber looking to freelance your talent, you can create an account to manage appointments and optimize your business. Our priority is helping barbers run their business more effectively while also allowing customers to seamlessly schedule their next haircut and feel ready to face the world looking fresh!',

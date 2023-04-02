@@ -20,19 +20,19 @@ const AboutMe = () => {
           </div>
           <div data-aos="slide-down" className="bio">
             <p>
-              As a software engineer with a background in biological sciences
-              and healthcare, I bring a unique perspective to the tech industry.
-              I find satisfaction in meaningful work that incorporates
-              data-driven practices and solutions. I am driven by challenge and
-              have a keen ability to pick up new languages and meet tight
-              deadlines. I have experience working on an Agile/Scrum team and
-              understand the importance of collaboration and communication in
-              delivering quality work. Whether I am developing full-stack
-              applications, my top priority is always delivering work that is
-              optimized and functional. I approach every task with the intent to
-              learn and grow, and I am always looking for new challenges. With
-              my skills and enthusiasm, I am ready to take on any project and
-              make a real impact in the tech industry.🚀💻👨🏻‍💻🧬
+              I'm a Miami native software engineer with a background in
+              biological sciences and healthcare who brings a unique perspective
+              to the tech industry. I find satisfaction in meaningful work that
+              incorporates data-driven practices and solutions. I am driven by
+              challenge and have a keen ability to pick up new languages and
+              meet tight deadlines. I have experience working on an Agile/Scrum
+              team and understand the importance of collaboration and
+              communication in delivering quality work. Whether I am developing
+              full-stack applications, my top priority is always delivering work
+              that is optimized and functional. I approach every task with the
+              intent to learn and grow, and I am always looking for new
+              challenges. With my skills and enthusiasm, I am ready to take on
+              any project and make a real impact in the tech industry.🚀💻👨🏻‍💻🧬
             </p>
           </div>
         </div>

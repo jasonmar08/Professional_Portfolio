@@ -20,7 +20,7 @@ const AboutMe = () => {
           </div>
           <div data-aos="slide-down" className="bio">
             <p>
-              I'm a Miami native software engineer with a background in
+              I'm a 🌴 Miami 🏝 native software engineer with a background in
               biological sciences and healthcare who brings a unique perspective
               to the tech industry. I find satisfaction in meaningful work that
               incorporates data-driven practices and solutions. I am driven by
@@ -32,7 +32,7 @@ const AboutMe = () => {
               that is optimized and functional. I approach every task with the
               intent to learn and grow, and I am always looking for new
               challenges. With my skills and enthusiasm, I am ready to take on
-              any project and make a real impact in the tech industry.🚀💻👨🏻‍💻🧬
+              any project and make a real impact in the tech industry. 🚀💻👨🏻‍💻🧬
             </p>
           </div>
         </div>

@@ -8,7 +8,8 @@ body {
   /* text-align: center; */
   /* background-color: black; */
   /* background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.25' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"), linear-gradient(to right top, #343a40, #2b2c31, #211f22, #151314, #000000) fixed; */
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.25' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"), linear-gradient(to right top, #384f66, #19314b, #091a2b) fixed;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.25' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
+    linear-gradient(to right top, #384f66, #19314b, #091a2b) fixed;
   /* background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.25' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"), linear-gradient(to right top, #3a5776, #1f3852, #0b1b2c) fixed; */
   /* width: 100vw; */
   /* min-height: 100vh; */
@@ -46,7 +47,7 @@ body {
   justify-content: space-between;
   align-items: center;
   /* background-color: rgba(51, 48, 48, 0.554); */
-  background-color: rgba(29, 60, 98, 0.882);
+  background-color: rgba(29, 60, 98, 0.5);
   height: 7vh;
   /* width: 80vh; */
   /* margin: 0 auto; */
@@ -60,6 +61,7 @@ body {
   left: 0;
   right: 0;
   z-index: 99999;
+  backdrop-filter: saturate(180%) blur(8px);
 }
 
 .navbar-links {
@@ -108,7 +110,8 @@ body {
   color: rgb(241, 246, 246);
   margin-top: 15vh;
   column-gap: 6vh;
-  background: linear-gradient(rgb(149, 183, 210), rgb(66, 112, 150)) center/2px 70% no-repeat;
+  background: linear-gradient(rgb(149, 183, 210), rgb(66, 112, 150)) center/2px
+    70% no-repeat;
   width: 95vh;
   align-items: center;
   z-index: 99999;
@@ -353,12 +356,12 @@ ul {
   max-width: 33vh;
   border-radius: 26px;
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
-  filter: invert(8%)
+  filter: invert(8%);
 }
 
 #resume-thumbnail:hover {
   filter: none;
-  transform: scale(.96);
+  transform: scale(0.96);
   transition: 0.3s;
 }
 
@@ -449,6 +452,13 @@ ul {
   height: 46rem;
   width: 46rem;
   overflow: hidden;
+  animation: mymove 4s infinite;
+}
+
+@keyframes mymove {
+  50% {
+    box-shadow: 0 0 20px rgb(64, 139, 177);
+  }
 }
 
 .project-img-grid img {
@@ -511,13 +521,15 @@ ul {
   justify-content: space-evenly;
 }
 
-.git-btn-grid, .dep-btn-grid {
+.git-btn-grid,
+.dep-btn-grid {
   margin: 0;
   margin-top: 1rem;
   padding: 0;
 }
 
-#git-btn, #dep-btn {
+#git-btn,
+#dep-btn {
   font-size: 16px;
   /* color: rgb(214, 198, 154); */
   color: rgb(163, 189, 240);
@@ -531,21 +543,26 @@ ul {
   background-color: rgba(82, 89, 130, 0.313);
   border-radius: 6% / 17%;
   /* border-radius: 25%; */
-  transition: all 0.5s
+  transition: all 0.5s;
 }
 
-.git-btn-grid:hover, #git-btn:hover, .dep-btn-grid:hover, #dep-btn:hover {
+.git-btn-grid:hover,
+#git-btn:hover,
+.dep-btn-grid:hover,
+#dep-btn:hover {
   /* color: rgb(231, 241, 203); */
   color: rgb(214, 227, 255);
   transform: scale(0.9);
   text-shadow: 3px 3px 10px #f6f5f556;
 }
 
-#git-btn:hover, #dep-btn:hover {
+#git-btn:hover,
+#dep-btn:hover {
   border: 2px inset rgba(160, 165, 196, 0.951);
 }
 
-.git-btn-grid:active, .dep-btn-grid:active {
+.git-btn-grid:active,
+.dep-btn-grid:active {
   transform: scale(0.8);
 }
 
@@ -573,18 +590,24 @@ ul {
 .floating-contact h5 {
   margin: 0;
   text-shadow: none;
-  color:rgb(157, 183, 207)
+  color: rgb(157, 183, 207);
 }
-#email-icon:hover, #linkedin-icon:hover, #github-icon:hover, #resume-icon:hover {
-  transform: scale(.87);
+#email-icon:hover,
+#linkedin-icon:hover,
+#github-icon:hover,
+#resume-icon:hover {
+  transform: scale(0.87);
   filter: none;
 }
 
-#email-icon, #linkedin-icon, #github-icon, #resume-icon {
+#email-icon,
+#linkedin-icon,
+#github-icon,
+#resume-icon {
   max-height: 2.2rem;
   max-width: 2.2rem;
   cursor: pointer;
-  filter: invert(25%)
+  filter: invert(25%);
 }
 
 /* ============>> CONTACT ME PAGE <<============ */
@@ -601,7 +624,8 @@ ul {
   align-items: center;
   flex-wrap: wrap;
   margin: 6vh 2.5vw 0 2.5vw;
-  background: linear-gradient(rgb(105, 124, 165), rgba(68, 63, 122, 0.542)) center/1.5px 90% no-repeat;
+  background: linear-gradient(rgb(105, 124, 165), rgba(68, 63, 122, 0.542))
+    center/1.5px 90% no-repeat;
   background-color: rgba(10, 7, 40, 0.441);
   padding: 0;
   min-height: 69vh;
@@ -632,7 +656,9 @@ ul {
   row-gap: 3.4vh;
 }
 
-.contact-me-email, .contact-me-linkedin, .contact-me-github {
+.contact-me-email,
+.contact-me-linkedin,
+.contact-me-github {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -643,27 +669,37 @@ ul {
   text-decoration: none;
 }
 
-.contact-me-email:hover, .contact-me-linkedin:hover, .contact-me-github:hover {
+.contact-me-email:hover,
+.contact-me-linkedin:hover,
+.contact-me-github:hover {
   /* border: 1px solid rgb(214, 227, 255); */
   background-color: rgba(214, 227, 255, 0.12);
   border-radius: 23px;
   cursor: pointer;
 }
 
-.contact-me-email:hover #ct-me-email-icon, .contact-me-linkedin:hover #ct-me-linkedin-icon, .contact-me-github:hover #ct-me-github-icon {
+.contact-me-email:hover #ct-me-email-icon,
+.contact-me-linkedin:hover #ct-me-linkedin-icon,
+.contact-me-github:hover #ct-me-github-icon {
   filter: none;
 }
 
-.contact-me-email:hover *, .contact-me-linkedin:hover *, .contact-me-github:hover * {
+.contact-me-email:hover *,
+.contact-me-linkedin:hover *,
+.contact-me-github:hover * {
   color: rgb(214, 227, 255);
   text-shadow: 1px 1px 3px #f6f5f556;
 }
 
-.contact-me-email:active, .contact-me-linkedin:active, .contact-me-github:active {
-  transform: scale(.95);
+.contact-me-email:active,
+.contact-me-linkedin:active,
+.contact-me-github:active {
+  transform: scale(0.95);
 }
 
-.contact-me-email-text, .contact-me-linkedin-text, .contact-me-github-text {
+.contact-me-email-text,
+.contact-me-linkedin-text,
+.contact-me-github-text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -671,13 +707,20 @@ ul {
   height: 7vh;
 }
 
-.contact-me-email-text h3, h4, .contact-me-linkedin-text h3, h4, .contact-me-github-text h3, h4 {
+.contact-me-email-text h3,
+h4,
+.contact-me-linkedin-text h3,
+h4,
+.contact-me-github-text h3,
+h4 {
   margin: 0;
   text-shadow: none;
   color: rgb(214, 227, 255);
 }
 
-#ct-me-email-icon, #ct-me-linkedin-icon, #ct-me-github-icon {
+#ct-me-email-icon,
+#ct-me-linkedin-icon,
+#ct-me-github-icon {
   max-height: 3em;
   max-width: 3em;
   filter: invert(15%);
@@ -685,7 +728,7 @@ ul {
 
 /* ============>> CONTACT FORM FIELDS <<============ */
 
-.contact-container{
+.contact-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -717,19 +760,19 @@ ul {
 
 input:-webkit-autofill,
 input:-webkit-autofill:focus {
-    transition: background-color 600000s 0s, color 600000s 0s;
+  transition: background-color 600000s 0s, color 600000s 0s;
 }
 input[data-autocompleted] {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 
 ::placeholder {
   color: white;
-  opacity: .6;
+  opacity: 0.6;
   font-size: 18px;
-  
 }
-.input-fields:focus, .textarea:focus {
+.input-fields:focus,
+.textarea:focus {
   outline: none;
   border: 3px solid rgba(212, 210, 210, 0.828);
 }
@@ -805,7 +848,7 @@ input[data-autocompleted] {
   right: 8px;
 }
 .contact-btn:active {
-  transform: scale(.90);
+  transform: scale(0.9);
 }
 
 /* ============>> FOOTER <<============ */
@@ -828,30 +871,30 @@ footer {
     /* border-bottom-left-radius: 6% 10%;
     border-bottom-right-radius: 6% 10%; */
   }
-  
+
   .welcome-info {
     margin-top: 22vh;
   }
-  
+
   .welcome-info h1 {
     font-size: 72px;
   }
-  
+
   .welcome-info h2 {
     font-size: 38px;
   }
-  
+
   .btn-txt {
     font-size: 16px;
   }
-  
+
   .comp-logo img {
     height: 32vh;
     width: 32vh;
     top: 25%;
     right: 6%;
   }
-  
+
   .built-scratch {
     font-size: 23px;
   }
@@ -861,7 +904,7 @@ footer {
     column-gap: 5.5vh;
     /* border-radius: 3% / 30%; */
   }
-  
+
   .stack-icons img {
     height: 5.5vh;
   }
@@ -876,8 +919,11 @@ footer {
     max-height: 22vh;
     /* border-radius: 15% / 5%; */
   }
-  
-  #email-icon, #linkedin-icon, #github-icon, #resume-icon {
+
+  #email-icon,
+  #linkedin-icon,
+  #github-icon,
+  #resume-icon {
     max-height: 1.8rem;
     max-width: 1.8rem;
   }
@@ -907,7 +953,7 @@ footer {
     width: 37rem;
     overflow: hidden;
   }
-  
+
   .project-img-grid img {
     height: 37rem;
     width: auto;
@@ -924,7 +970,7 @@ footer {
   .project-name-grid h2 {
     font-size: 23px;
   }
-  
+
   .project-name-grid h3 {
     font-size: 15px;
   }
@@ -933,7 +979,8 @@ footer {
     font-size: 14px;
   }
 
-  #git-btn, #dep-btn {
+  #git-btn,
+  #dep-btn {
     font-size: 15px;
   }
 
@@ -942,19 +989,27 @@ footer {
     height: 42vh;
   }
 
-  .contact-me-email, .contact-me-linkedin, .contact-me-github {
+  .contact-me-email,
+  .contact-me-linkedin,
+  .contact-me-github {
     padding: 2.5vh 1vh;
   }
 
-  .contact-me-email-text h3, .contact-me-linkedin-text h3, .contact-me-github-text h3 {
+  .contact-me-email-text h3,
+  .contact-me-linkedin-text h3,
+  .contact-me-github-text h3 {
     font-size: 16px;
   }
 
-  .contact-me-email-text h4, .contact-me-linkedin-text h4, .contact-me-github-text h4 {
+  .contact-me-email-text h4,
+  .contact-me-linkedin-text h4,
+  .contact-me-github-text h4 {
     font-size: 14px;
   }
 
-  #ct-me-email-icon, #ct-me-linkedin-icon, #ct-me-github-icon {
+  #ct-me-email-icon,
+  #ct-me-linkedin-icon,
+  #ct-me-github-icon {
     max-height: 2.8em;
     max-width: 2.8em;
   }
@@ -963,7 +1018,6 @@ footer {
 /* ======>>======>>> TABLET-FRIENDLY RESPONSIVE <<<======<<====== */
 
 @media all and (max-width: 768px) {
-  
   /* .profile-container {
     overflow: hidden;
   }
@@ -1007,7 +1061,6 @@ footer {
 /* ======>>======>>> MOBILE-FRIENDLY RESPONSIVE <<<======<<====== */
 
 @media all and (max-width: 600px) {
-
   .comp-logo img {
     height: 16vh;
     width: 16vh;
@@ -1059,7 +1112,7 @@ footer {
   .welcome-info h1 {
     font-size: 40px;
   }
-  
+
   .welcome-info h2 {
     font-size: 20px;
   }
@@ -1096,23 +1149,29 @@ footer {
     margin: 0;
     bottom: 2%;
   }
-  
+
   .floating-contact h5 {
     text-shadow: none;
-    color:rgb(157, 183, 207)
+    color: rgb(157, 183, 207);
   }
-  #email-icon:hover, #linkedin-icon:hover, #github-icon:hover, #resume-icon:hover {
-    transform: scale(.87);
+  #email-icon:hover,
+  #linkedin-icon:hover,
+  #github-icon:hover,
+  #resume-icon:hover {
+    transform: scale(0.87);
     filter: none;
   }
-  
-  #email-icon, #linkedin-icon, #github-icon, #resume-icon {
+
+  #email-icon,
+  #linkedin-icon,
+  #github-icon,
+  #resume-icon {
     max-height: 2.2em;
     max-width: 2.2rem;
     min-height: 0;
     min-width: 0;
     cursor: pointer;
-    filter: invert(25%)
+    filter: invert(25%);
   }
 
   #miami-banner {
@@ -1145,7 +1204,7 @@ footer {
     height: 25vh;
     width: 25vh;
   }
-  
+
   .bio {
     width: 35vh;
     padding: 1vh 4vh;
@@ -1224,7 +1283,7 @@ footer {
     box-shadow: none;
     margin-top: 10vh;
   }
-  
+
   .project-card {
     display: flex;
     flex-direction: column;
@@ -1244,7 +1303,7 @@ footer {
     width: 22rem;
     overflow: hidden;
   }
-  
+
   .project-img-grid img {
     height: 22rem;
     width: auto;
@@ -1253,23 +1312,25 @@ footer {
   .project-name-grid {
     max-width: 20rem;
   }
-  
+
   .project-name-grid {
     /* border-radius: 10% / 8%; */
   }
-  
+
   .project-links {
     display: flex;
     justify-content: space-evenly;
   }
-  
-  .git-btn-grid, .dep-btn-grid {
+
+  .git-btn-grid,
+  .dep-btn-grid {
     margin: 0;
     padding: 0;
     margin-top: 1rem;
   }
-  
-  #git-btn, #dep-btn {
+
+  #git-btn,
+  #dep-btn {
     font-size: 16px;
     color: rgb(163, 189, 240);
     margin: 0;
@@ -1278,17 +1339,21 @@ footer {
     text-shadow: none;
     cursor: pointer;
   }
-  
-  .git-btn-grid:hover, #git-btn:hover, .dep-btn-grid:hover, #dep-btn:hover {
+
+  .git-btn-grid:hover,
+  #git-btn:hover,
+  .dep-btn-grid:hover,
+  #dep-btn:hover {
     color: rgb(214, 227, 255);
     transform: scale(0.9);
     text-shadow: 3px 3px 10px #f6f5f556;
   }
-  
-  .git-btn-grid:active, .dep-btn-grid:active {
+
+  .git-btn-grid:active,
+  .dep-btn-grid:active {
     transform: scale(0.8);
   }
-  
+
   .contact-page {
     margin-bottom: 123vh;
   }
@@ -1328,24 +1393,32 @@ footer {
     margin: 0;
   }
 
-  .contact-me-email, .contact-me-linkedin, .contact-me-github {
+  .contact-me-email,
+  .contact-me-linkedin,
+  .contact-me-github {
     padding: 2.5vh 1vh;
   }
 
-  .contact-me-email-text h3, .contact-me-linkedin-text h3, .contact-me-github-text h3 {
+  .contact-me-email-text h3,
+  .contact-me-linkedin-text h3,
+  .contact-me-github-text h3 {
     font-size: 16px;
   }
 
-  .contact-me-email-text h4, .contact-me-linkedin-text h4, .contact-me-github-text h4 {
+  .contact-me-email-text h4,
+  .contact-me-linkedin-text h4,
+  .contact-me-github-text h4 {
     font-size: 14px;
   }
 
-  #ct-me-email-icon, #ct-me-linkedin-icon, #ct-me-github-icon {
+  #ct-me-email-icon,
+  #ct-me-linkedin-icon,
+  #ct-me-github-icon {
     max-height: 2.5em;
     filter: invert(15%);
   }
 
-  .contact-container{
+  .contact-container {
     margin: 0;
   }
 
@@ -1360,7 +1433,7 @@ footer {
 
   ::placeholder {
     color: white;
-    opacity: .6;
+    opacity: 0.6;
     font-size: 16px;
   }
 

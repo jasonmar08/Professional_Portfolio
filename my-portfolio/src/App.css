@@ -211,6 +211,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  padding-top: 16px;
 }
 
 .profile-photo img {
@@ -225,6 +226,7 @@ body {
   object-fit: cover;
   object-position: 50% 24%;
   display: flex;
+  box-shadow: 0 0 20px rgb(64, 139, 177);
 }
 
 .bio {
